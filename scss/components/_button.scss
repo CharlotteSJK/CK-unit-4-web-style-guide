@@ -31,6 +31,31 @@
   .warning {
     background-color: $warning;
   }
-  
+
+ 
+  .fade1:hover {
+      background-color: $default-light;
+      transition: background-color 0.5s ease-in;
+    }
+
+ .fade2:hover {
+      background-color: $success-light;
+      transition: background-color 0.5s ease-in;
+    }
+
+  .fade3:hover {
+      background-color: $error-light;
+      transition: background-color 0.5s ease-in;
+    }
+
+  .fade4:hover {
+      background-color: $warning-light;
+      transition: background-color 0.5s ease-in;
+    }
+
+  .fade5:hover {
+      background-color: $info-light;
+      transition: background-color 0.5s ease-in;
+    }
   
   
